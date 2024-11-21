@@ -1,0 +1,57 @@
+h1{
+    border-style: double;
+    color: brown;
+    background-color: bisque;
+}
+
+h3{ border: 2px solid brown;
+    color: #3e3114;
+    background-color: blanchedalmond;
+}
+
+link{
+    background-image: url("cs.jpg");
+}
+
+h2{
+    background-color: blanchedalmond; 
+    color: #240d0d;
+}
+
+h4{
+    color: #3e3114;
+}
+body {
+    background: linear-gradient(45deg, #bd83b3, #e177a8, #897e19);
+    background-size: 300% 300%; 
+    animation: gradientShift 8s infinite;
+}
+
+
+
+
+
+
+.flex-container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #bcc883;
+    padding: 50px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+
+.flex-item {
+    background-color: #fff;
+    padding: 50px;
+    margin: 10px;
+    color: #240d0d;
+    text-align: center;
+    border: 2px solid #ff006a;
+    border-radius: 5px;
+    flex: 1 1 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
